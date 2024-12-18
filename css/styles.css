@@ -324,15 +324,13 @@ font-weight: 400;
 .svg-social-media-list {
     display: flex;
     justify-content: center;
-    align-content: center;
-   align-items: center;
+    align-content: space-between;
    gap: 24px;
    
 }
 .svg-social-media-conteiner {
     background-color: #4d5ae5;
-    height: 40px;
-    width: 40px;
+    
     border-radius: 50%;
     justify-content: space-between;
     margin-top: 8px;
@@ -346,7 +344,8 @@ font-weight: 400;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-
+    height: 40px;
+    width: 40px;
 }
 
 .svg-social-media-action .svg-social-media-conteiner {
@@ -359,10 +358,10 @@ position: relative;
     transform: translate(-50%, -50%);
     fill: #f4f4fd;
 }
-.svg-social-media-action :hover {
+.svg-social-media-action:hover {
 background-color: #404bbf
 }
-.svg-social-media-action :focus {
+.svg-social-media-action:focus {
 background-color: #404bbf}
 /* #endregion ourteam */
 /* #region our portfolio */
