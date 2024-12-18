@@ -220,7 +220,7 @@ display: flex;
 padding-top: 50px;
 padding-bottom: 50px;
 gap: 24px;
-width: calc(100%-(3*24)/4);
+width: calc(100% - (3 * 24px) / 4);
 }
 .features-list-item {
 width: 264px;}
@@ -285,7 +285,7 @@ margin-bottom: 72px;
     gap: 24px;
     padding-left: 0;
         margin: 0;
-    width: calc(100%-(3*24)/4);
+    width: calc(100% - (3 * 24px) / 4);
 }
 .our-team-list-item {
 background-color: #FFFFFF;
@@ -386,11 +386,10 @@ background-color: #404bbf}
 /* #endregion ourteam */
 /* #region our portfolio */
 .our-portfolio {
-background-color: ;
 display: flex;
-    align-items: center;
-    padding-top: 120px;
-    padding-bottom: 120px;
+align-items: center;
+padding-top: 120px;
+padding-bottom: 120px;
 }
 .our-portfolio-title {
 font-weight: 700;
